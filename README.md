@@ -1,8 +1,4 @@
-# README
-
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
+# Install
 1. Install ruby. (To be safe, install ruby 2.4.2)
    If you have other ruby versions, the simplest might be to install rbenv.
    Follow instructions here: https://github.com/rbenv/rbenv
@@ -38,11 +34,16 @@ curl -d '' -H 'Accept: application/html' localhost:3000
 curl -d '' -H 'Accept: application/json' localhost:3000
 ```
 
+# Logging
+
 The debug logs go into log/development.log. The log_level is debug by default.
 To change that add config.log_level=<level> in config/enviroments/development.rb
 (where level is one of :debug, :info, :warn, :error, :fatal)
 
 
-Tests can be run as
+# Tests
 
+Tests can be run as
+```
 $ rails test.
+```
