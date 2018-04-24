@@ -1,0 +1,2 @@
+module StaticHellosHelper
+end
